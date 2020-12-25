@@ -1,0 +1,25 @@
+{
+  "name": "redhat-nodejs-helloworld",
+  "version": "1.0.0",
+  "description": "Hello World App using Node.js and Express.JS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Phillip Knezevich",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "redhat-nodejs-helloworld"
+  },
+  "keywords": [
+    "nodejs",
+    "node",
+    "hello",
+    "world",
+    "redhat"
+  ],
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
