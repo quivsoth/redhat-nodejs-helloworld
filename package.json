@@ -4,13 +4,14 @@
   "description": "Hello World App using Node.js and Express.JS",
   "main": "index.js",
   "scripts": {
+    "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Phillip Knezevich",
   "license": "ISC",
   "repository": {
     "type": "git",
-    "url": "redhat-nodejs-helloworld"
+    "url": "https://github.com/quivsoth/redhat-nodejs-helloworld"
   },
   "keywords": [
     "nodejs",
