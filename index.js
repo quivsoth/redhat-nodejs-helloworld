@@ -9,6 +9,11 @@ app.get('/', function (req, res) {
     res.sendFile('/public/index.html', { root: __dirname });
 });
 
+app.get('/map', function (req, res) {
+  //res.sendFile('/public/index.html', { root: __dirname });
+  res.send('Hello World!');
+});
+
 app.listen(port, () => {
   console.log(`RHNJS app listening at http://localhost:${port}`);
 
