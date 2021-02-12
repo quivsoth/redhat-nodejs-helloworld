@@ -11,4 +11,10 @@ app.get('/', function (req, res) {
 
 app.listen(port, () => {
   console.log(`RHNJS app listening at http://localhost:${port}`);
+
+  console.log("message");
+  var m = process.env.MMS || 'm';
+  console.log(m);
+
+
 })
